@@ -1,4 +1,4 @@
-puts "enter file"
-$file = 'ffff'
-data=system 'echo #{file}'
-puts data
+ folder =STDIN.gets
+ list_all_files = "ls -al #{folder}"
+ `#{list_all_files}`
+
